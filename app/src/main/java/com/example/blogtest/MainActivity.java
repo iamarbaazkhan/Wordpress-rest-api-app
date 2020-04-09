@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<Model> list;
     private RecyclerViewAdapter adapter;
 
-    private String baseUrl ="https://blog.intcce.org/";
+    private String baseUrl ="https://greatsocieties.in/";
 
     public static List<WPPost> mListPost;
     @Override
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
                     list.add( new Model( Model.IMAGE_TYPE,  response.body().get(i).getTitle().getRendered(),
                             tempdetails,
-                            response.body().get(i).getLinks().getAuthor().get(0).getHref()));
+                            response.body().get(i).getLinks().getWpFeaturedmedia().get(0).getHref()));
 
                 }
                 adapter.notifyDataSetChanged();

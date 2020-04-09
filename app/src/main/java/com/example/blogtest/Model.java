@@ -2,7 +2,7 @@ package com.example.blogtest;
 
 public class Model {
 
-    public static final int IMAGE_TYPE =1;
+    public static final int IMAGE_TYPE =0;
     public String title, subtitle, Image;
     public int type;
 
