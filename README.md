@@ -4,7 +4,7 @@ A simple app that fetches the wordpress posts on android app.
 
 ## Installation
 
-Android studio 
+Android studio ,
 Core java
 
 ## Contributing
